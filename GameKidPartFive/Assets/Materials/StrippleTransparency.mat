@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: StrippleTransparency
+  m_Shader: {fileID: 4800000, guid: 4820874140d429f49a26c9edea5ce02d, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: 2000
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: -1.66, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _PaletteTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 9ff6a9a95c0390546ae5fd0cdabd1b77, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DitherTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 9ff6a9a95c0390546ae5fd0cdabd1b77, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: 0.5
+      data:
+        first:
+          name: _ColorCount
+        second: 4
+      data:
+        first:
+          name: _PaletteHeight
+        second: 128
+      data:
+        first:
+          name: _DitherSize
+        second: 8
+      data:
+        first:
+          name: _Transparency
+        second: 0.5
+    m_Colors: {}
